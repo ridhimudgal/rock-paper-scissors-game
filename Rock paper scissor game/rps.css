@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color: rgb(227, 209, 188);
+}
+h1{
+    /* background-color: seagreen; */
+    color: rgb(149, 94, 200);
+    height: 120px;
+    line-height: 9rem;
+    font-size: 60px;
+    /* -webkit-text-stroke: 1.5px rgb(0, 0, 0); */
+    -webkit-text-stroke: 1.5px seagreen;
+}
+.option{
+    height: 220px;
+    width: 220px;
+    /* background-color: aliceblue; */
+    /* border: 1px solid rgb(133, 41, 41); */   
+}
+.option:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+img:hover{
+    background-color: seagreen;
+    border: 3px solid rgb(149, 94, 200);
+}
+img{
+    height: 170px;
+    width: 170px;
+    /* object-fit: cover; */
+    border: 3px solid seagreen;
+    border-radius: 40%;
+    background-color: rgb(149, 94, 200);
+}
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 50px;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    gap: 20rem;
+    margin-top: 10px;
+}
+#user-score, #computer-score{
+    font-size: 80px;
+}
+.message-container{
+    margin-top: 60px;
+}
+#message{
+    display: inline;
+    font-size: 40px;
+    background-color: rgb(149, 94, 200);
+    color: whitesmoke;
+    /* color: seagreen; */
+    /* -webkit-text-stroke: 1.5px rgb(0, 0, 0); */
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid seagreen;
+}
+.choice{
+    font-size: 2rem;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+
+}
+#comp-choice{
+    color: seagreen;
+}
+#user-choice{
+    color:  rgb(149, 94, 200);;
+}
+.reset{
+    height: 40px;
+    width: 120px;
+    /* line-height: 3rem; */
+    margin-top: 2rem;
+    font-size: 17px;
+}
